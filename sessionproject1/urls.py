@@ -19,4 +19,6 @@ from testapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.page_count_view),
+    url(r'^index/',views.index),
+
 ]
